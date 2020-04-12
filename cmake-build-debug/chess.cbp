@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="chess"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/admin/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/admin/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/admin/CLionProjects/chess/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess">
+				<Option output="/Users/admin/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="chess/fast">
+				<Option output="/Users/admin/CLionProjects/chess/cmake-build-debug/chess" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/admin/CLionProjects/chess/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.0/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 chess/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/admin/CLionProjects/chess/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/admin/CLionProjects/chess/controller/Controller.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/controller/Controller.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/drawer/Drawer.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/drawer/Drawer.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/AbstractFigure.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/Bishop.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/King.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/Knight.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/Pawn.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/Queen.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_headers/Rook.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/AbstractFigure.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/Bishop.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/King.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/Knight.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/Pawn.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/Queen.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure/figure_srcs/Rook.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure_factory/FigureFactory.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/figure_factory/FigureFactory.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/game/Game.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/game/Game.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/loader/Loader.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/loader/Loader.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/main.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/move_validator/MoveValidator.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/move_validator/MoveValidator.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/parser/Parser.cpp">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/parser/Parser.h">
+			<Option target="chess"/>
+		</Unit>
+		<Unit filename="/Users/admin/CLionProjects/chess/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
